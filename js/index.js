@@ -10,8 +10,6 @@ async function loadFlowers() {
 
     const flowers = await res.json();
     console.log("Flowers", flowers);
-    //{name: 'rose', color: 'red', description: 'Has horns and very beatiful', image: 'https://images.unsplash.com/photo-1562690868-60bbe…W58MHx8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60', maxHeight: 200}
-    //const { name, color, description, image } = flower;
 
     flowers.forEach((flower) => {
       console.log("We are here", flower);
